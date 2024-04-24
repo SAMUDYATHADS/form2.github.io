@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <form action="message.html">
+        <fieldset>
+            <legend>personal details</legend>
+
+            <label for="name">Name</label> <br>
+            <input type="text" id="name" placeholder="name"> <br>
+
+            <label for="dd">DOB</label> <br>
+            <input type="date" id="da" placeholder="date of birth"> <br>
+
+            <label for="email">Email</label> <br>
+            <input type="eamil" id="eamil" placeholder="email"> <br>
+
+            <label for="pass">Password</label><br>
+            <input type="password" id="pass"><br>
+
+
+        </fieldset>
+        <fieldset>
+            <legend>Education details </legend>
+
+            <label for="">Department</label>
+
+            <input type="radio" id="cs" name="de">
+            <label for="cs">CS</label>
+
+            <input type="radio" id="ec" name="de">
+            <label for="ec">EC</label>
+
+            <input type="radio" id="mech" name="de">
+            <label for="mech">MECH</label>
+
+            <input type="radio" id="civil" name="de">
+            <label for="civil">CIVIL</label><br>
+
+            <br>
+
+            <label for="">Year Of Graduation</label>
+            <input list= "year">
+            <datalist id="year">
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+
+            </datalist>
+            <br><br>
+            <label for="">Skills</label><br>
+
+            <input type="checkbox" id="html">
+            <label for="html">HTML</label><br>
+
+            <input type="checkbox" id="css">
+            <label for="css">CSS</label>
+
+
+
+            
+
+        </fieldset>
+        <input type="submit" value="login">
+        
+    </form>
+    
+</body>
+</html>
